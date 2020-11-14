@@ -1,6 +1,6 @@
 
 def badge_maker(name)
- puts "Hello, my name is #{name}."
+# puts "Hello, my name is #{name}."
  return  "Hello, my name is #{name}."
 end
 
@@ -17,6 +17,7 @@ speakers.each_with_index do |name, i|
 end
 
 def printer(attendees)
-   batch_badge_creator(attendees).each {|badge| puts badge}
+   batch_badge_creator(attendees).each{|badge| puts badge}
    assign_rooms(attendees).each{|rooms| puts rooms}
  end
+ 
