@@ -1,4 +1,4 @@
-
+require "pry"
 def badge_maker(name)
 # puts "Hello, my name is #{name}."
  return  "Hello, my name is #{name}."
@@ -12,6 +12,7 @@ def assign_rooms(speakers)
  new_array = []
 speakers.each_with_index do |name, i|
     new_array << "Hello, #{name}! You'll be assigned to room #{i + 1}!"
+    
     end
     new_array
 end
